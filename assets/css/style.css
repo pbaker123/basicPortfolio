@@ -6,7 +6,6 @@ body {
 	color: #777777;
 	font-size: 16px;
 	text-decoration: none;
-	/*position: absolute;*/
 	height: 100%;
 }
 
@@ -58,9 +57,20 @@ h2 {
 	border-bottom-width: 2px;
 }
 
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 1px;
+}
+
 h4 {
 	color: #777777;
-	font-size: 20px;
+	font-size: 16px;
+	padding: 2px;
+	margin: 0;
 }
 
 ul {
@@ -68,13 +78,12 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #ffffff;
 	width: 500px;
 }
 
 li {
 	float: right;
-	border-right: 1px solid #777777;
+	border-right: 1px solid #4aaaa5;
 }
 
 li a {
@@ -82,11 +91,13 @@ li a {
     color: #777777;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
     text-decoration: none;
+    border-radius: 8px;
 }
 
-li a:hover {
+li a:hover, li a:active, li a:focus {
     background-color: #dddddd;
 }
 
@@ -94,18 +105,73 @@ li:first-child {
     border-right: none;
 }
 
-/*a {
-	text-decoration: none;
-	color: #777777;
-	font-size: 20px;
-	padding-left: 4px;
-	padding-right: 4px;
+input[type="text"] {
+	width: 100%;
+	padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #777777;
+    color: #777777;
 }
 
-a:hover {
-	color: #ffffff;
+input[type="text"]:focus {
+	border: 1px solid #4aaaa5;
+}
+
+input[type="email"] {
+	width: 100%;
+	padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #777777;
+    color: #777777;
+}
+
+input[type="email"]:focus {
+	border: 1px solid #4aaaa5;
+}
+
+input[type="email"]:invalid {
+	border: 1px solid red;
+}
+
+input[type=submit] {
 	background-color: #4aaaa5;
-}*/
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 0px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
+	background-color: #777777;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #777777;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+textarea:focus {
+	border: 1px solid #4aaaa5;
+}
+
+.connectSocial {
+	border-right-style: none;
+	float: left;
+	padding: 0px;
+	margin: 10px;
+}
 
 .headerArea {
 	width:960px;
@@ -121,6 +187,33 @@ a:hover {
 	width: 920px;
 	padding: 20px;
 	margin: auto;
+	border-radius: 15px;
+	z-index: 1;
+}
+
+.contactContentArea {
+	position: relative;
+	width: 960px;
+	margin: auto;
+	z-index: 1;
+}
+
+.contactFormArea {
+	background-color: #ffffff;
+	position: relative;
+	width: 520px;
+	float: left;
+	padding: 20px;
+	border-radius: 15px;
+	z-index: 1;
+}
+
+.contactConnectArea {
+	background-color: #ffffff;
+	position: relative;
+	width: 300px;
+	float: right;
+	padding: 20px;
 	border-radius: 15px;
 	z-index: 1;
 }
@@ -156,6 +249,13 @@ a:hover {
 	position: relative;
 }
 
+.imageSocials {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-style: none;
+}
+
 .mainText {
 	float: left;
 	width: 600px;
@@ -187,4 +287,43 @@ a:hover {
     content: "";
     clear: both;
     display: table;
+}
+
+#connectGithub {
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+	width: 80px;
+	background-image: url('../images/github.png');
+}
+
+#connectGithub:hover, #connectGithub:active, #connectGithub:focus {
+	background-image: url('../images/github2.png');
+	background-color: #ffffff;
+}
+
+#connectLinkedin {
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+	width: 80px;
+	background-image: url('../images/linkedin.png');
+}
+
+#connectLinkedin:hover, #connectLinkedin:active, #connectLinkedin:focus {
+	background-image: url('../images/linkedin2.png');
+	background-color: #ffffff;
+}
+
+#connectStackoverflow {
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+	width: 80px;
+	background-image: url('../images/stackoverflow.png');
+}
+
+#connectStackoverflow:hover, #connectStackoverflow:active, #connectStackoverflow:focus {
+	background-image: url('../images/stackoverflow2.png');
+	background-color: #ffffff;
 }

@@ -15,16 +15,16 @@
 		<header>
 			<!-- Navigation bar area -->
 			<div class="headerArea">
-				<div class="portfolioTitle">
+				<div class="portfolioTitle" tabindex="-1">
 					<h1 class="verticalCenter">
 						Paul Baker
 					</h1>
 				</div>
 				<div class="portfolioNavigation">
 					<ul>
-						<li><a class="active" href="contact.html">Contact</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="index.html">About</a></li>
+						<li><a class="active" href="contact.html" tabindex="3">Contact</a></li>
+						<li><a href="portfolio.html" tabindex="2">Portfolio</a></li>
+						<li><a href="index.html" tabindex="1">About</a></li>
 					</ul>
 				</div>	
 			</div>
@@ -32,19 +32,38 @@
 
 		<section>
 			<!-- Main body area -->
-			<div class="contentArea">
+			<div class="contactContentArea">
 				<div class="clearFix">
-					<h2>
-						Contact Me
-					</h2>
-					<div>	
-						
+					<div class="contactFormArea">
+						<h2>
+							Contact
+						</h2>
+						<form action="/action_page.php">
+							<h4>Name</h4>
+							<input name="name" placeholder="John Smith" type="text" tabindex="4" autofocus/>
+							<h4>Email</h4>
+							<input name="email" placeholder="example@email.com" type="email" tabindex="5" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+							<h4>Message</h4>
+  							<textarea name="message" tabindex="6"></textarea>
+ 							 <br>
+ 							 <input type="submit" tabindex="7">
+						</form>
+					</div>
+					<div class="contactConnectArea">
+						<h3>
+							Connect with Me
+						</h3>
+						<ul>
+							<li class="connectSocial"><a id="connectGithub" href="index.html" tabindex="8"></a></li>
+							<li class="connectSocial"><a id="connectLinkedin" href="portfolio.html" tabindex="9"></a></li>
+							<li class="connectSocial"><a id="connectStackoverflow" href="contact.html" tabindex="10"></a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<footer>
+		<footer tabindex="-1">
 			<!-- Footer Area -->
 			<p class="footerText">
 				Copyright &copy;
