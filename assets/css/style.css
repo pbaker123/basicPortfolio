@@ -86,7 +86,7 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	width: 500px;
 }
 
@@ -199,7 +199,7 @@ textarea:focus {
 	width: 920px;
 	padding: 20px;
 	margin: auto;
-	margin-bottom: 80px;
+	margin-bottom: 200px;
 	border-radius: 15px;
 	z-index: 1;
 }
@@ -341,7 +341,7 @@ textarea:focus {
 	color: #ffffff;
 	text-align: center;
 	position: relative;
-	bottom: 0px;
+	bottom: -10px;
 }
 
 .active {
