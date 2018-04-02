@@ -163,6 +163,10 @@ input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
 	background-color: #777777;
 }
 
+input[type=submit]::-moz-focus-inner {
+  border: 0;
+}
+
 textarea {
     width: 100%;
     height: 150px;
@@ -247,7 +251,7 @@ textarea:focus {
 	margin: 10px;
 	background-color: #777777;
 	position: relative;
-	background-image: url('../images/project1.png');
+	background-image: url('http://placehold.it/300x200');
 }
 
 #portfolioProject2 {
@@ -256,7 +260,7 @@ textarea:focus {
 	margin: 10px;
 	background-color: #777777;
 	position: relative;
-	background-image: url('../images/project1.png');
+	background-image: url('http://placehold.it/300x200');
 }
 
 #portfolioProject3 {
@@ -265,7 +269,7 @@ textarea:focus {
 	margin: 10px;
 	background-color: #777777;
 	position: relative;
-	background-image: url('../images/project1.png');
+	background-image: url('http://placehold.it/300x200');
 }
 
 #portfolioProject4 {
@@ -274,7 +278,7 @@ textarea:focus {
 	margin: 10px;
 	background-color: #777777;
 	position: relative;
-	background-image: url('../images/project1.png');
+	background-image: url('http://placehold.it/300x200');
 }
 
 #portfolioProject5 {
@@ -283,7 +287,7 @@ textarea:focus {
 	margin: 10px;
 	background-color: #777777;
 	position: relative;
-	background-image: url('../images/project1.png');
+	background-image: url('http://placehold.it/300x200');
 }
 
 .portfolioDivLabel {
