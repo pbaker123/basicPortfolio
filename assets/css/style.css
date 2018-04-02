@@ -97,7 +97,8 @@ li a {
 }
 
 li a:hover, li a:active, li a:focus {
-    background-color: #dddddd;
+    background-color: #393F44;
+    color: #ffffff;
 }
 
 li:first-child {
@@ -133,7 +134,7 @@ input[type="email"]:focus {
 }
 
 input[type="email"]:invalid {
-	border-left: 3px solid red;
+	border-left: 3px solid #DD524A;
 }
 
 input[type=submit] {
@@ -150,7 +151,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
-	background-color: #777777;
+	background-color: #393F44;
 }
 
 input[type=submit]::-moz-focus-inner {
@@ -285,6 +286,20 @@ textarea:focus {
 	position: relative;
 }
 
+.projectLink {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+	background-color: #777777;
+	position: relative;
+}
+
+.projectLink:hover, .projectlink:active, .projectlink:focus {
+	border: 4px solid #393F44;
+	padding: 0px;
+	margin: 6px;
+}
+
 .footerText {
 	color: #ffffff;
 	text-align: center;
@@ -352,46 +367,32 @@ textarea:focus {
 }
 
 #portfolioProject1 {
+	background-image: url('../images/projectPlaceHolder.png');
 	height: 200px;
 	width: 300px;
-	margin: 10px;
-	background-color: #777777;
-	position: relative;
-	background-image: url('http://placehold.it/300x200');
 }
 
 #portfolioProject2 {
 	height: 200px;
 	width: 300px;
-	margin: 10px;
-	background-color: #777777;
-	position: relative;
-	background-image: url('http://placehold.it/300x200');
+	background-image: url('../images/projectPlaceHolder.png');
 }
 
 #portfolioProject3 {
 	height: 200px;
 	width: 300px;
-	margin: 10px;
-	background-color: #777777;
-	position: relative;
-	background-image: url('http://placehold.it/300x200');
+	background-image: url('../images/projectPlaceHolder.png');
 }
 
 #portfolioProject4 {
 	height: 200px;
 	width: 300px;
-	margin: 10px;
-	background-color: #777777;
-	position: relative;
-	background-image: url('http://placehold.it/300x200');
+	background-image: url('../images/projectPlaceHolder.png');
 }
 
 #portfolioProject5 {
 	height: 200px;
 	width: 300px;
-	margin: 10px;
-	background-color: #777777;
-	position: relative;
-	background-image: url('http://placehold.it/300x200');
+	background-image: url('../images/projectPlaceHolder.png');
 }
+
