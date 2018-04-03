@@ -43,11 +43,12 @@ footer {
 	bottom: 0px;
 	left: 0px;
 	border-top: 4px solid #4aaaa5;
+	height: 50px;
 	z-index: 20;
 }
 
 p {
-	-webkit-margin-before: 0em;
+	margin-bottom: 16px;
 }
 
 h1 {
@@ -61,6 +62,8 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding-bottom: 20px;
 	border-bottom: 2px solid #dddddd;
+	font-size: 20px;
+	margin-bottom: 20px;
 }
 
 h3 {
@@ -68,13 +71,14 @@ h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #dddddd;
+	font-size: 18px;
 }
 
 h4 {
 	color: #777777;
 	font-size: 16px;
 	padding: 2px;
-	margin: 0;
+	margin-bottom: 5px;
 }
 
 ul {
@@ -294,7 +298,7 @@ textarea:focus {
 	color: #ffffff;
 	text-align: center;
 	position: relative;
-	bottom: -10px;
+	bottom: -30px;
 }
 
 .active {
