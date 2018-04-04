@@ -39,4 +39,5 @@ h1, li a:hover, li a:active, li a:focus, input[type=submit], .footerText, .activ
 .active {
 	color: #FFFFFF !important;
 	background-color: #4AAAA5 !important;
+	cursor: default;
 }
